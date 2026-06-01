@@ -1,0 +1,16 @@
+# シークレット
+.env
+.env.local
+*.key
+credentials.json
+token.json
+
+# uv / Python
+.venv/
+__pycache__/
+*.pyc
+.python-version
+
+# OS
+.DS_Store
+Thumbs.db

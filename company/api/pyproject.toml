@@ -1,0 +1,17 @@
+[project]
+name = "company-api"
+version = "0.1.0"
+description = "会社システム FastAPI バックエンド"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "python-dotenv>=1.0.0",
+    "anthropic>=0.40.0",
+    "google-auth>=2.36.0",
+    "google-auth-oauthlib>=1.2.0",
+    "google-api-python-client>=2.160.0",
+]
+
+[tool.uv]
+package = false

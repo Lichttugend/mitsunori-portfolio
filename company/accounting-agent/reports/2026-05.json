@@ -1,0 +1,12 @@
+{
+  "month": "2026-05",
+  "currency": "EUR",
+  "summary": {
+    "revenue_total": 0.0,
+    "expense_total": 0.0,
+    "profit": 0.0,
+    "event_count": 0
+  },
+  "by_vendor_net": {},
+  "events": []
+}

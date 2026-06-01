@@ -1,0 +1,16 @@
+[project]
+name = "accounting-agent"
+version = "1.0.0"
+description = "経理エージェント v1 — Gmail請求メール自動記録・経費台帳管理"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "google-auth>=2.36.0",
+    "google-auth-oauthlib>=1.2.0",
+    "google-api-python-client>=2.160.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+package = false
