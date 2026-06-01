@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
     DATABASE_URL: str = "sqlite:///./berlinchat.db"
+    ALLOWED_ORIGINS: list[str] = ["http://localhost:5173"]
 
     # MVP後に使用
     OPENAI_API_KEY: str = ""
