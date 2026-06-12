@@ -132,7 +132,7 @@ function App() {
       </section>
 
       <footer id="footer">
-        <p>© 2025 Mitsunori</p>
+        <p>© 06.2026 Mitsunori</p>
       </footer>
     </>
   )
